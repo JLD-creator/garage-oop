@@ -4,9 +4,9 @@ import  java.util.Scanner;
 import org.ies.vehicles.model.VehicleType;
 import  org.ies.vehicles.model.vehicle;
 
-public class vehicleReader {
+public class VehicleReader {
     private final  Scanner scanner;
-    public  vehicleReader( Scanner scanner){
+    public VehicleReader(Scanner scanner){
         this.scanner = scanner;
     }
     public vehicle read(){

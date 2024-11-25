@@ -1,14 +1,14 @@
 package org.ies.vehicles.components;
 
 import java.util.Scanner;
-import org.ies.vehicles.components.vehicleReader;
+
 import org.ies.vehicles.model.Garage;
 import org.ies.vehicles.model.vehicle;
 
 public class GarageReader {
     private final Scanner scanner;
-    private final vehicleReader vehicleReader;
-    public GarageReader(Scanner scanner, vehicleReader vehicleReader){
+    private final VehicleReader vehicleReader;
+    public GarageReader(Scanner scanner, VehicleReader vehicleReader){
         this.scanner = scanner;
         this.vehicleReader = vehicleReader;
     }
